@@ -190,7 +190,7 @@ public class TaskDialog extends JDialog {
         
         jLabelDescription.setMaximumSize(new Dimension(100, 16));
         jLabelDescription.setMinimumSize(new Dimension(60, 16));
-        jLabelDescription.setText(Local.getString("Description"));
+        jLabelDescription.setText(Local.getString("Room Number"));
         gbCon = new GridBagConstraints();
         gbCon.gridwidth = GridBagConstraints.REMAINDER;
         gbCon.weighty = 1;
