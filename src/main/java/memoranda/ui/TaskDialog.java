@@ -168,7 +168,7 @@ public class TaskDialog extends JDialog {
         this.getRootPane().setDefaultButton(okB);
         mPanel.setBorder(border1);
         areaPanel.setBorder(border2);
-        dialogTitlePanel.setBackground(Color.WHITE);
+        dialogTitlePanel.setBackground(Color.RED); //change dialogTitlePanel background color from white to red
         dialogTitlePanel.setBorder(border4);
         //dialogTitlePanel.setMinimumSize(new Dimension(159, 52));
         //dialogTitlePanel.setPreferredSize(new Dimension(159, 52));
@@ -190,7 +190,7 @@ public class TaskDialog extends JDialog {
         
         jLabelDescription.setMaximumSize(new Dimension(100, 16));
         jLabelDescription.setMinimumSize(new Dimension(60, 16));
-        jLabelDescription.setText(Local.getString("Room Number"));
+        jLabelDescription.setText(Local.getString("Room Number"));  //change Discription to Room Number
         gbCon = new GridBagConstraints();
         gbCon.gridwidth = GridBagConstraints.REMAINDER;
         gbCon.weighty = 1;
